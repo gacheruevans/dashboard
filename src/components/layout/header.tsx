@@ -3,7 +3,7 @@ import { Layout, Space } from 'antd'
 
 const Header = () => {
   const headerStyles: React.CSSProperties = {
-    background: '#fff',
+    background: '#2C4E80',
     display: 'flex',
     justifyContent: 'flex-end',
     alignItems: 'center',
