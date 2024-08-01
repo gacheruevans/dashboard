@@ -13,7 +13,7 @@ const customFetch = async(url: string, options: RequestInit) => {
             ...headers,
             Authorization: headers?.Authorization || `Bearer ${accessToken}`,
             'Content-Type': 'application/json',
-            'Apolllo-Require-Preflight': 'true'
+            'Apollo-Require-Preflight': 'true'
         },
     })
 }
